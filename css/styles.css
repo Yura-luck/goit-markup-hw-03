@@ -340,18 +340,21 @@ ul {
 .portfolio-link {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px 24px;
+  gap: 48px 24px;
 }
 .link-port {
-  display: block max-;
+  display: block;
 }
 .text-port {
-  margin-bottom: ;
+  margin-bottom: max;
 }
 .li-card {
   flex-basis: calc((100% - 48px) / 3);
 }
 
+.bord-card {
+  border-radius: 0px 0px 4px 4px;
+}
 .pading-card {
   background: #ffffff;
 
@@ -359,7 +362,7 @@ ul {
   padding-bottom: 32px;
   padding-left: 16px;
   padding-right: 16px;
-}
-.bord-card {
-  border-radius: 0px 0px 4px 4px;
+
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
