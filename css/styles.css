@@ -20,6 +20,11 @@ h4,
 h5 {
   margin-top: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .container {
   width: 100%;
@@ -166,7 +171,7 @@ ul {
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--color-lighte);
-  background: #404bbf;
+
   background-color: #404bbf;
   border-color: transparent;
 }
@@ -258,9 +263,6 @@ ul {
   justify-content: space-between;
 }
 .amg-list {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 .sektion-portfolio {
   padding-bottom: 120px;
@@ -280,13 +282,8 @@ ul {
 .team-master {
   text-align: center;
 }
-.img-master {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+
 .list-flex {
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 /* ?\ FOOTER */
@@ -328,6 +325,7 @@ ul {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .navigation:hover,
